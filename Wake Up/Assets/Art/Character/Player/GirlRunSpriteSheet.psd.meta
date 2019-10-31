@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: a9558586f46a1d14e94d27f7c02b6ae7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5342991377952943933
+    second: GirlRunSpriteSheet_0
+  - first:
+      213: 7216489864671512939
+    second: GirlRunSpriteSheet_1
+  - first:
+      213: 868400248854180563
+    second: GirlRunSpriteSheet_2
+  - first:
+      213: 3601060456361968285
+    second: GirlRunSpriteSheet_3
+  - first:
+      213: 5610138261053191407
+    second: GirlRunSpriteSheet_4
+  - first:
+      213: 8820042951708342552
+    second: GirlRunSpriteSheet_5
+  - first:
+      213: 5931756451243388251
+    second: GirlRunSpriteSheet_6
+  - first:
+      213: 7357626585133379590
+    second: GirlRunSpriteSheet_7
+  - first:
+      213: -928452017753780594
+    second: GirlRunSpriteSheet_8
+  - first:
+      213: 1559432920815202486
+    second: GirlRunSpriteSheet_9
+  - first:
+      213: -4908200277805669649
+    second: GirlRunSpriteSheet_10
+  - first:
+      213: 2734768008023699738
+    second: GirlRunSpriteSheet_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 998
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d268be03ac8f2b4d9b2a68d13cc8cab
+      internalID: 5342991377952943933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 0
+        width: 1008
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612511f0fadc39f44ae46e915526eb6d
+      internalID: 7216489864671512939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 0
+        width: 1000
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4fbabde52f37d428dad8f89631d2bf
+      internalID: 868400248854180563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 0
+        width: 1000
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee64d5099f89af42aac30e7b7f49e16
+      internalID: 3601060456361968285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 0
+        width: 911
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fe35e12a05399489787b5030dc8b16
+      internalID: 5610138261053191407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 4932
+        y: 0
+        width: 1043
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63f342d87f13c345a5db54194468b48
+      internalID: 8820042951708342552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 5981
+        y: 0
+        width: 996
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bedc202d2fcb4f40a7240a6f6d91abd
+      internalID: 5931756451243388251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 6972
+        y: 0
+        width: 1045
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1d0797d4726164cb4377e6bd4add28
+      internalID: 7357626585133379590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 8026
+        y: 0
+        width: 948
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d4c2ded6693c34abf76e2d9217a3e8
+      internalID: -928452017753780594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 8974
+        y: 0
+        width: 1053
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8803b71741a7924c9c2272eab779613
+      internalID: 1559432920815202486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 10030
+        y: 0
+        width: 997
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22938c87e7a43bc48b08cc601bf0ef60
+      internalID: -4908200277805669649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlRunSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 11024
+        y: 0
+        width: 1057
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab994a9817e1e3408f0315b8828e321
+      internalID: 2734768008023699738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
