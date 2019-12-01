@@ -4,15 +4,90 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public Animator animator;
-    public float speed = 2;
+    public float playerSpeed;
+    public float jumpSpeed;
+    private Animator anim;
 
-    void Update()
+    private bool isJumping;
+    private bool isRunning;
+
+    private float move;
+    private Rigidbody2D rb;
+
+    bool facingRight = true;
+    Vector3 localScale;
+
+    private void Start()
     {
-        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
-
-        Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
-        transform.position = transform.position + horizontal * Time.deltaTime*speed;
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        localScale = transform.localScale;
         
     }
+    private void Update()
+    {
+
+        if (Input.GetButtonDown("Jump") && !isJumping)
+        {
+            rb.AddForce(new Vector2(rb.velocity.x, jumpSpeed));
+            isJumping = true;
+            
+        }
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            playerSpeed = 10f;
+        
+        }
+        else
+            playerSpeed = 5f;
+
+        RunAnimations();
+
+        move = Input.GetAxis("Horizontal");
+
+        rb.velocity = new Vector2(move * playerSpeed, rb.velocity.y);
+
+    }
+
+    private void LateUpdate()
+    {
+        CheckWhereToFace();
+    }
+
+    void CheckWhereToFace()
+    {
+        if (move > 0)
+
+            facingRight = true;
+
+        else if (move < 0)
+
+            facingRight = false;
+
+
+        if (((facingRight) && (localScale.x < 0)) || ((!facingRight) && (localScale.x > 0)))
+            localScale.x *= -1;
+
+        transform.localScale = localScale;
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isJumping = false;
+        }
+    }
+
+    void RunAnimations()
+    {
+ 
+            anim.SetFloat("Movment", Mathf.Abs(move));
+   
+            anim.SetBool("isRunning", isRunning);
+   
+            anim.SetBool("isJumping", isJumping);
+    }
+
 }
+
