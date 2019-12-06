@@ -26,6 +26,10 @@ public class PlayerController : MonoBehaviour
     }
     private void Update()
     {
+        move = Input.GetAxis("Horizontal");
+
+        rb.velocity = new Vector2(move * playerSpeed, rb.velocity.y);
+
 
         if (Input.GetButtonDown("Jump") && !isJumping)
         {
@@ -44,9 +48,7 @@ public class PlayerController : MonoBehaviour
 
         RunAnimations();
 
-        move = Input.GetAxis("Horizontal");
-
-        rb.velocity = new Vector2(move * playerSpeed, rb.velocity.y);
+       
 
     }
 
